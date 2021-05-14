@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.content{
+    width: 1000px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+/*头部*/
+.content .top{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 0;
+}
+.content .top span{
+   width: 250px;
+   display: inline-block;
+   font-size: 12px;
+}
+.content .top h4{
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+}
+.content .top h5{
+    width: 250px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+/*患者信息*/
+.patient-information{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0;
+}
+.patient-information .code{
+    height: 20px;
+    text-align:left;
+    font-size:12px;
+    padding-left: 68px;
+}
+.patient-information .user{
+    width: 100%;
+    display: inline-block;
+    font-size:0;
+    text-align:left;
+}
+.patient-information .user .user-left{
+    box-sizing: border-box;
+    width: 750px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    padding-left: 68px;
+}
+.patient-information .user .user-left span{
+    margin-right: 60px;
+}
+.patient-information .user .square-right{
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 20px;
+}
+.patient-information .user .square-right h5{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+/*诊断，药品信息*/
+.diagnostic-drugs{
+    width: 864px;
+    height: 400px;
+    border: 1px solid #333;
+    margin: 20px auto 0;
+}
+.diagnostic-drugs .diagnosis-left{
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #333;
+}
+.diagnostic-drugs .diagnosis-left .gm{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.diagnostic-drugs .drugs-right{
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    float: left;
+    width: 661px;
+}
+.diagnostic-drugs .drugs-right .ys{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 180px;
+}
+.diagnostic-drugs .drugs-right .ys span i{
+    font-style: normal;
+}
+.diagnostic-drugs .drugs-right .ys span{
+    display: inline-block;
+    width: 30%;
+}
+.diagnostic-drugs .drugs-right .drug{
+    box-sizing: border-box;
+    float: left;
+    width: 661px;
+}
+.diagnostic-drugs .drugs-right .drug .product span{
+    display: inline-block;
+   width: 32%;
+}
+.diagnostic-drugs .drugs-right .drug .use{
+    box-sizing: border-box;
+    padding-left: 15%;
+}
+.diagnostic-drugs .drugs-right .drug .use span{
+    display: inline-block;
+    width: 20%;
+}
+/*底部其他部分*/
+.other{
+    width: 1000px;
+    margin-left: 100px;
+}
+.other .money{
+    width: 100%;
+}
+.other .money span{
+    display: inline-block;
+    width: 22%;
+}
+.other .money span i{
+    font-style: normal;
+}
+.other .tips{
+    font-size: 14px;
+}
+.other .type span:nth-child(1){
+    font-size: 14px;
+}
+.other .type span:nth-child(2){
+    padding-left: 40px;
+}
